@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #09afd6;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  color: white;
+}
+
+.affirmation {
+  font-size: 26px;
+  -moz-box-shadow: 7px 10px 15px #047892;
+  -webkit-box-shadow: 7px 10px 15px #047892;
+  box-shadow: 7px 10px 15px #047892;
+}
+.listItem {
+  text-align: center;
+}
+.counter {
+  font-size: 42px;
+  text-align: center;
+  color: rgb(245, 193, 23);
+  margin: 20px auto;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgb(206, 206, 206);
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgb(206, 206, 206);
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgb(206, 206, 206);
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgb(206, 206, 206);
+}
+
+ul {
+  margin: 60px auto;
+  list-style: none;
+}
+
+li {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
